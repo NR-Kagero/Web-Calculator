@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Calculator.js"></script>
+</head>
+<body>
+    <form name="Form1" >
+        <input type="text" name="text">
+    </form><br>
+    <div class="biko bi1" >
+        <button onclick="Delete()">Del</button>
+        <button class="button bac" onclick="all_C()">AC</button><br>
+        <button onclick="Add()">+</button>
+        <button onclick="getNum(7)">7</button>
+        <button onclick="getNum(8)">8</button>
+        <button onclick="getNum(9)">9</button>
+        <button onclick="Sub()">-</button>
+        <button onclick="getNum(4)">4</button>
+        <button onclick="getNum(5)">5</button>
+        <button onclick="getNum(6)">6</button>
+        <button onclick="Mul()">*</button>
+        <button onclick="getNum(1)">1</button>
+        <button onclick="getNum(2)">2</button>
+        <button onclick="getNum(3)">3</button>
+        <button onclick="Div()">/</button>
+        <button onclick="getNum(0)">0</button>
+        <button onclick="Frac()">.</button>
+        <button class="button beq" onclick="Equal()">=</button>
+    </div>
+</body>
+</html>
